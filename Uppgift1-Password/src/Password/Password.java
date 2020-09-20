@@ -6,7 +6,7 @@ public class Password {
 
 	public static void main(String[] args) {
 		
-		String password = "Hej123";
+		String password = "Hejsan";
 		Scanner scanner= new Scanner(System.in);
 		
 		System.out.println("Enter password here!");
@@ -45,16 +45,16 @@ public class Password {
 			char c =s.charAt(i);
 			
 			if (c >= 'a' && c <= 'm')
-				c += 10;
+				c += 15;
 			
 			else if (c >= 'A' && c <='M')
-				c +=10;
+				c +=13;
 			
 			else if (c >= 'n' && c <='z')
-				c -= 10;
+				c -= 8;
 			
 			else if (c >= 'N' && c <= 'Z')
-				c -= 10;
+				c -= 7;
 			
 			System.out.print(c);
 			
