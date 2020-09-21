@@ -31,6 +31,8 @@ public class Password {
 				Pass(password);
 			}
 		}
+		
+		scanner.close();
 
 	}
 
