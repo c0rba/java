@@ -8,13 +8,13 @@ public class RockPaperScissors {
 	
 	public static void main(String[] args) {
 		
-		//rock beats scissors
-		//paper beats rock
-		//scissors beats paper
+		//0-rock beats scissors
+		//1-paper beats rock
+		//2-scissors beats paper
 		
-		Scanner console = new Scanner(System.in);
+		Scanner inputScanner = new Scanner(System.in);
 		
-		String choice = console.nextLine();
+		String choice = inputScanner.nextLine();
 		
 		System.out.println(choice);
 		
@@ -36,20 +36,7 @@ public class RockPaperScissors {
 			System.out.println("Wrong input");
 		}
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		inputScanner.close();
 		
 		
 		
