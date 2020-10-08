@@ -34,7 +34,7 @@ public class ParsingCSV {
 				nameArrayList.add(values[2]);
 				timeStampArrayList.add(values[0]);
 				workSelectionArrayList.add(values[6]);
-				//System.out.println("Timestamp: " + values[0] + ", Name 1: " + values[1] + ", Email 1: " + values [3] + ", Name 2: " + values [2] + ", Email 2: " + values[4]);
+				
 			}
 			
 			
